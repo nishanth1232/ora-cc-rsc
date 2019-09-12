@@ -16,7 +16,7 @@ RATE = 44100
 CHUNK = 1024
 
 # original # URL="wss://nm-live-speech.iais.fraunhofer.de:443/worker_only_1/"+str(APIKEY)+"/ws/speech?content-type=audio/x-raw,+layout=(string)interleaved,rate=(int)"+str(RATE)+",+format=(string)S16LE,+channels=(int)1"
-URL="ws://localhost:8888/worker_only_1/"+str(APIKEY)+"/ws/speech?content-type=audio/x-raw,+layout=(string)interleaved,rate=(int)"+str(RATE)+",+format=(string)S16LE,+channels=(int)1"
+URL="ws://localhost:8888/client/ws/speech?content-type=audio/x-raw,+layout=(string)interleaved,rate=(int)"+str(RATE)+",+format=(string)S16LE,+channels=(int)1"
 # URL="ws://localhost:8888/"+str(APIKEY)+"/ws/speech?content-type=audio/x-raw,+layout=(string)interleaved,rate=(int)"+str(RATE)+",+format=(string)S16LE,+channels=(int)1"
 # URL="ws://localhost:8888/ws/speech?content-type=audio/x-raw,+layout=(string)interleaved,rate=(int)"+str(RATE)+",+format=(string)S16LE,+channels=(int)1"
 # URL="ws://localhost:8888/speech?content-type=audio/x-raw,+layout=(string)interleaved,rate=(int)"+str(RATE)+",+format=(string)S16LE,+channels=(int)1"
